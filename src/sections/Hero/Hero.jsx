@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/sw-logo.svg';
+import logo from '../../assets/sw-logo.svg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
@@ -7,6 +7,7 @@ import linkedinDark from '../../assets/linkedin-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import CV from '../../assets/Sam-Woolson-Resume.pdf';
+import heroImg from '../../assets/samwoolson-portrait.png';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -27,7 +28,7 @@ function Hero() {
             </div>
             <div className={styles.info}>
                 <h1>Sam Woolson</h1>
-                <h2>Product Designer & Frontend Developer</h2>
+                <h2>Product Designer &<br/> Frontend Developer</h2>
                 <span>
                     <a href="https://www.linkedin.com/in/samwoolson/" target='_blank'>
                     <img src={linkedinIcon} alt="LinkedIn Icon"></img></a>
@@ -47,4 +48,4 @@ function Hero() {
   )
 }
 
-export default Hero;
+export default Hero
