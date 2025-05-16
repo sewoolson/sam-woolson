@@ -26,7 +26,11 @@ function Projects() {
         <h3>Chesapeake Components</h3>
         <p>Responsive Web</p>
         </Link>
-    
+    </div>
+    <br/>
+    <h1 className='sectionTitle'>Coding Projects</h1>
+    <div className={styles.projectsContainer}>
+
     </div>
     </section>
     );

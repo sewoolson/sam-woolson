@@ -50,6 +50,10 @@ h1, h2 {
 h2, h3 {
     font-size: 20px;
 }
+h4 {
+    font-size: 18px;
+    font-family: sans-serif;
+}
 
 h1 {
     font-family: 'Oswald-Medium', sans-serif;  
@@ -69,6 +73,9 @@ p {
     cursor: pointer;
 }
 
+section {
+    margin-bottom: 16px;
+}
 
 
 @media (width >= 800px) {
