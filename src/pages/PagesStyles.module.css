@@ -1,0 +1,25 @@
+
+
+.deets{
+    text-align: left;
+
+}.projectDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    line-height: 0;
+}
