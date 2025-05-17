@@ -1,19 +1,20 @@
 :root {
-    --background-color: #F6F6F6;
+    --background-color: #F5F5F5;
     --btn-color: #75984F;
     --btn-text-color: #fff;
     --project-card-bg: #ffffff00;
     --text-color: #0A0F08;
-    --form-text-color: #555;
+    --form-text-color: #39393A;
     --footer-text-color: #888;
 }
+
 [data-theme='dark'] {
-    --background-color: #1F222D;
+    --background-color: #0F101D;
     --btn-color: #7F8EF8;
-    --btn-text-color: #FFF;
-    --project-card-bg: #fff;
-    --text-color: #fff;
-    --form-text-color: #fff;
+    --btn-text-color: #F5F5F5;
+    --project-card-bg: #F5F5F5;
+    --text-color: #F5F5F5;
+    --form-text-color: #F5F5F5;
     --footer-text-color: #bbb;
 }
 
@@ -29,6 +30,7 @@ body {
     flex-direction: column;
     gap: 60px;
 }
+
 
 h1,
 h2,
@@ -94,6 +96,12 @@ section {
     .sectionTitle {
         margin-bottom: 60px;
     }
+
+    .logo {
+    width: 200px;
+    margin: 16px;
+    }
+
 
     @media (width >= 1400px) {
         #root {
