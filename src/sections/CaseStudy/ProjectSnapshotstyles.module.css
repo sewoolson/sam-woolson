@@ -1,0 +1,6 @@
+ul, li {
+  text-wrap: balance;
+  line-height: 2rem;
+  gap: 12px;
+  
+}

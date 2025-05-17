@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     text-align: center;
     height: 100dvh;
@@ -9,27 +10,12 @@
 
     .hero {
     max-width: 200px;
+    justify-content: center;
     }
-
-    span {
-        display: flex;
-        gap: 25px;
-        justify-content: center;
-        
-
-        a {
-            margin: 0;
-
-        img {
-                width: 30px;
-            }
-        }
-    }
-
     a {
-        width: fit-content;
-        align-self: center;
-    }
+    margin: 0;
+
+}
 
     button {
         background-color: var(--btn-color);
@@ -48,20 +34,27 @@
         transform: scale(1.05);
     }
 
+
     button:active {
         transform: translateY(2px);
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
     }
 }
 
-.colorModeContainer {
+/* .colorModeContainer {
     position: relative;
+} */
+
+.logo {
+    padding: 16px;
 }
 
+.logo img {
+    width: 180px;
+}
 .colorMode {
-    position: absolute;
-    right: 0;
     width: 25px;
+    padding: 1rem 2rem 1rem .5rem;
 }
 
 .colorMode:hover {
@@ -77,6 +70,46 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.navContainer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 1rem 1rem;
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.socials {
+    margin-left: auto;
+    align-self: auto;
+    padding: 1rem 0.5rem 1rem .5rem;
+}
+
+.socials img {
+    height: 24px;
+    padding: 0.25rem;
+    margin: auto;
+}
+
+.resume button {
+    background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        border: none;
+        border-radius: 8px;
+        width: 90px;
+        height: 44px;
+        font-size: 16px;
+        font-weight: bold;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
 }
 
 @media (width >= 800px) {
