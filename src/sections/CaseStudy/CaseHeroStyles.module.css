@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    height: 100dvh;
+    min-height: 500px;
+    padding: 0 24px;
+    margin: 0 auto;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 36px;
+    text-align: left;
+
+}
