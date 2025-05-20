@@ -31,9 +31,9 @@ export function Navbar() {
         <a href="https://www.github.com/sewoolson/" target='_blank'><img src={githubIcon} alt="github Icon"></img></a>
         </div>
         <div className={styles.resume}>
-        <a href={CV} download><button>Resume</button></a></div>
+        <a href={CV} download><button className="hover btn">Resume</button></a></div>
         <div><a><img className={styles.colorMode} src={themeIcon} alt="Color mode icon" onClick={toggleTheme}/></a></div>
         </div>
- 
+
     )
 }
