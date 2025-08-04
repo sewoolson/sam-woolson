@@ -13,9 +13,6 @@ function Modal({ isOpen, onClose, image, title, date, description, githubLink })
         <h2>{title}</h2>
         <p>{date}</p>
         <p>{description}</p>
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
-          View Code on GitHub
-        </a>
       </div>
     </div>
   );

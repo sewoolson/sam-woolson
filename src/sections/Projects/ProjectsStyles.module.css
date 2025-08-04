@@ -35,6 +35,8 @@ a:hover {
     gap: 30px;
 }
 
+
+
 @media (width >= 800px) {
     .projectsContainer {
         flex-direction: row;
