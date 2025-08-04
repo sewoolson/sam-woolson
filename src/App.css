@@ -6,13 +6,16 @@
     --text-color: #0A0F08;
     --form-text-color: #39393A;
     --footer-text-color: #888;
+      --modal-bg-color: #fff;       /* Light theme modal background */
+    --modal-text-color: #0A0F08;  /* Light theme modal text */
 }
 
 [data-theme='dark'] {
     --background-color: #0F101D;
     --btn-color: #7F8EF8;
     --btn-text-color: #F5F5F5;
-    --project-card-bg: #F5F5F5;
+    --modal-bg-color: #fff;
+    --modal-text-color: #0A0F08;  
     --text-color: #F5F5F5;
     --form-text-color: #F5F5F5;
     --footer-text-color: #bbb;

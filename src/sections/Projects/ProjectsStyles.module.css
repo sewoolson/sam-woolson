@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+}
 
     img {
     max-width: 250px;
     align-self: center;
     background-color: var(--project-card-bg);
-    border-radius: 20px;
+    border-radius: 8px;
 }
 
 a {
@@ -20,8 +21,13 @@ a {
 a:hover {
     transform: scale(1.05);
     }
-}
 
+.projectItem {
+  position: relative;
+  cursor: pointer; /* 👈 This line sets the hand cursor */
+  width: 300px;
+  transition: transform 0.3s;
+}
 .projectsContainer {
     display: flex;
     flex-direction: column;

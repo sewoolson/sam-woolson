@@ -11,7 +11,6 @@ const CaseHero = ({ projName, keyResult, caseHeroImg, team, role, duration }) =>
           <h2>{keyResult}</h2>
           <img src={caseHeroImg} />
         </div>
-
         <div className={styles.details}>
           <div>
             <h3>Team</h3>
