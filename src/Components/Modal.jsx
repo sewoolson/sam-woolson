@@ -1,23 +1,12 @@
 // src/components/Modal.jsx
 import { colors, useTheme } from '@mui/material';
 import React from 'react';
+import styles from '../sections/Hero/HeroStyles.module.css';
+
+
 
 function Modal({ isOpen, onClose, image, title, date, description, githubLink }) {
   if (!isOpen) return null;
-
-  return (
-    <div style={styles.overlay}>
-      <div style={styles.modal}>
-        <button onClick={onClose} style={styles.closeBtn}>×</button>
-        <img src={image} alt={title} style={styles.image} />
-        <h2>{title}</h2>
-        <p>{date}</p>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-
 const styles = {
   overlay: {
     position: 'fixed',
@@ -56,4 +45,16 @@ const styles = {
   }
 };
 
+  return (
+    <div style={styles.overlay}>
+      <div style={styles.modal}>
+        <button onClick={onClose} style={styles.closeBtn}>×</button>
+        <img src={image} alt={title} style={styles.image} />
+        <h2>{title}</h2>
+        <p>{date}</p>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+}
 export default Modal;
