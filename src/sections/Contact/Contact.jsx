@@ -68,7 +68,7 @@ const ContactForm = () => {
                 </textarea>
             </div>
             <input className="hover btn" type="submit" 
-            value="Sumbit"/>
+            value="Submit"/>
         </form>
       )}
       {error && <p style={{ color: 'red' }}>{error}</p>}

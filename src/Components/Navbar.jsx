@@ -9,7 +9,7 @@ import linkedinLight from '../assets/linkedin-light.svg';
 import linkedinDark from '../assets/linkedin-dark.svg';
 import githubLight from '../assets/github-light.svg';
 import githubDark from '../assets/github-dark.svg';
-import CV from '../assets/Sam-Woolson-Resume.pdf';
+import CV from '../../src/assets/SamWoolson-Resume.pdf';
 
 
 export function Navbar() {
